@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "breathefire";
+   src: url("http://ec2-18-220-60-62.us-east-2.compute.amazonaws.com/cs260-lab1-creative-project/chequered-ink_breathe-fire/Breathe Fire.otf");
+}
+
+body {
+  font-family: "breathefire", Helvetica, sans-serif;
+}
+
+#titleHeader {
+  text-align: center;
+  font-size: 5em; 
+}
+
+#environmentSelect {
+  
+}
+
+.selectBox {
+  font-size: 2em;
+  padding: 5px;
+  background-color: khaki;
+  border-radius: 15px;
+}
+

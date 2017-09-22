@@ -1,10 +1,35 @@
 <html>
 <head>
+    <title>Dragonquest Encounter Generator</title>
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="lab1creative.js"></script>
+    <script type="text/javascript" src="js/lab1creative.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/lab1creative.css">
 </head>
 <body>
-
-
+  <h1 id="titleHeader">Dragonquest Encounter Generator</h1>
+  <select id="environmentSelect" class="selectBox" onchange="switchBackground()">
+    <option value="cavern">Cavern</option>
+    <option value="crypt">Crypt</option>
+    <option value="field">Field</option>
+    <option value="marsh">Marsh</option>
+    <option value="ocean">Ocean</option>
+    <option value="plains">Plains</option>
+    <option value="rough">Rough</option>
+    <option value="ruin">Ruin</option>
+    <option value="waste">Waste</option>
+    <option value="woods">Woods</option>
+  </select>
+  <select id="situationSelect" class="selectBox">
+    <option value="volvo">situation1</option>
+    <option value="saab">situation2</option>
+    <option value="mercedes">situation3</option>
+    <option value="audi">situation4</option>
+    <option value="volvo">situation5</option>
+    <option value="saab">situation6</option>
+    <option value="mercedes">situation7</option>
+    <option value="audi">situation8</option>
+    <option value="volvo">situation9</option>
+    <option value="saab">situation10</option>
+  </select>
 </body>
 </html>
