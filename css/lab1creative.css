@@ -5,6 +5,8 @@
 
 body {
   font-family: "breathefire", Helvetica, sans-serif;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 #titleHeader {
