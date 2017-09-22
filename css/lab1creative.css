@@ -7,6 +7,13 @@ body {
   font-family: "breathefire", Helvetica, sans-serif;
   -webkit-background-size: cover;
   background-size: cover;
+  color: darkred;
+}
+
+.mainContent {
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #titleHeader {
@@ -23,5 +30,9 @@ body {
   padding: 5px;
   background-color: khaki;
   border-radius: 15px;
+}
+
+#generate {
+  cursor: pointer;
 }
 
